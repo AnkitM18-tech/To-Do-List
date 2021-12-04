@@ -14,7 +14,7 @@ function add() {
     localStorage.setItem('todo',JSON.stringify(todos));
 
     show();
-
+    document.getElementById('task').value = "";
     return false;
 }
 
